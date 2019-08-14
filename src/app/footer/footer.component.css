@@ -1,0 +1,47 @@
+@font-face {
+  font-family: AvenirLTStd-Roman;
+  src: url(/assets/fonts/AvenirLTStd-Roman.otf) format("opentype");
+}
+
+.Conditions {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 0 0 4%;
+}
+
+.Conditions p {
+  opacity: 0.61;
+  font-family: AvenirLTStd-Roman;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.socials {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3% 2%;
+}
+
+.socials img {
+  width: 4%;
+  height: 50%;
+}
+
+@media(max-width: 800px) {
+  .Conditions p {
+    font-size: 6px;
+    margin-bottom: 0;
+  }
+  .socials {
+    margin-left: 3%;
+  }
+}
+

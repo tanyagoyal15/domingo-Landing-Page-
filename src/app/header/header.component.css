@@ -1,0 +1,95 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(/assets/fonts/Montserrat.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: GTWalsheimPro;
+  src: url(/assets/fonts/GT-Walsheim-Pro.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: AvenirLTStd;
+  src: url(/assets/fonts/AvenirLTStd.otf) format("opentype");
+}
+
+.header-wrapper {
+  background: url("/assets/images/stars.png");
+  margin-bottom: 4%;
+  height: auto !important;
+}
+.header-wrapper header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  padding: 3% 0;
+}
+
+.Domingodesign {
+  width: auto;
+  height: auto;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.23;
+  text-align: center;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Contact-us {
+  width: auto;
+  height: auto;
+  font-family: AvenirLTStd;
+  font-size: 100%;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Contact-us:hover {
+  text-decoration: none;
+}
+
+.Domingodesign , .Contact-us {
+  margin-bottom: 0;
+}
+.banner {
+  height: auto !important;
+}
+.banner-img {
+  width: 40%;
+  position: relative;
+}
+
+.We-work-with-startups-to-build-the-brands-of-the-future {
+  width: 20%;
+  font-family: GTWalsheimPro;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+  position: absolute;
+  margin: 0;
+  bottom: 20%;
+  left: 27%;
+}
+
+@media(max-width: 800px) {
+  .We-work-with-startups-to-build-the-brands-of-the-future {
+    width: 50%;
+    text-align: center !important;
+    bottom: auto;
+    margin-top: 2%;
+  }
+}

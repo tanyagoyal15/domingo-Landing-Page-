@@ -1,0 +1,118 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(/assets/fonts/Montserrat.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: AvenirLTStd-Roman;
+  src: url(/assets/fonts/AvenirLTStd-Roman.otf) format("opentype");
+}
+
+.about-wrapper {
+  margin: 7% auto;
+}
+
+.Domingo-design {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0 0 0 4%;
+}
+
+.Designndesign {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 2%;
+}
+
+.We-work-with-startups-to-build-the-brands-of-the-future {
+  width: 40%;
+  height: 15%;
+  opacity: 0.8;
+  font-family: AvenirLTStd-Roman;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.connect {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Ready-to-start-your-next-project-Drop-us-a-line-or-dtop-by-our-office-We-are-open-for-creative-minds-and-collaboration {
+  font-family: AvenirLTStd-Roman;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 10%;
+  padding: 0 4% 0 0;
+}
+
+.Get-a-quotation-for-your-project {
+  height: 1%;
+  font-family: AvenirLTStd-Roman;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.Send-us-a-message-hidomingodesign {
+  opacity: 0.8;
+  font-family: AvenirLTStd-Roman;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+@media(max-width: 800px) {
+  .about-wrapper {
+    margin: 10% auto;
+  }
+  .Designndesign {
+    font-size: 10px;
+  }
+  .We-work-with-startups-to-build-the-brands-of-the-future {
+    font-size: 9px;
+    width: 50%;
+  }
+  .Ready-to-start-your-next-project-Drop-us-a-line-or-dtop-by-our-office-We-are-open-for-creative-minds-and-collaboration {
+    font-size: 11px;
+  }
+  .Get-a-quotation-for-your-project {
+    font-size: 9px;
+  }
+  .Send-us-a-message-hidomingodesign {
+    font-size: 9px;
+  }
+}
